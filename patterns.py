@@ -64,3 +64,14 @@ for i in range(5):
     for j in range(1):
         print('*'*(5-i))
 
+# hallow triangle
+for i in range(1,8):
+    if i==1 or i==2:
+        print('*'*i)
+    elif i<=6:
+            print('*',end="")
+            print(' '*(i-2),end="")
+            print('*')
+    else:
+       print("*"*i)   
+
