@@ -1,28 +1,28 @@
 # sum of n numbers
-"""
+n=10
 print(n*(n+1)/2)
-"""
+
 
 # leap year
-'''
+
 year = int(input("entr year"))
 if(year%4==0 and year%100!=0 or year%400==0):
     print("leap year")
 else:
     print("not a leap year") 
-'''
+
 
 # vowel or not
-'''
+
 # c = input("enter charater")
 # if c in "aeiouAEIOU":
 #     print("VOWEL")
 # else:
 #     print("consonant")
-'''
+
 
 # lcm
-'''
+
 a= int(input("entr a no"))
 b= int(input("entr a no"))
 big = max(a,b)
@@ -32,10 +32,10 @@ while True:
        print("lcm:",big)
        break
     big+=1
-'''
+
 
 # factorial of num
-'''
+
 def fact(n):
     if n==0:
         return 1
@@ -44,10 +44,10 @@ def fact(n):
 print(fact(5))
 print(fact(0))
 print(fact(1))
-'''
+
 
 # even or not
-'''
+
 n =27
 def even_odd(n):
     if n%2==0:
@@ -55,11 +55,11 @@ def even_odd(n):
     else:
         print("odd")
 even_odd(n)
-'''
+
 
 
 # fibnocci numbers printing
-"""
+
 fib_series = [0,1]
 
 def fib(n):
@@ -76,10 +76,10 @@ def fib(n):
         return fib_series
 n = int(input("enter a no of terms for fibnnoci"))
 print(fib(n))
-"""
+
 
 # prime num or not
-'''
+
 n = int(input("enter a num"))
 cnt = 0
 for i in range(2,n):
@@ -89,10 +89,10 @@ if cnt==0:
     print("prime")
 else:
     print("not prime")
-'''
+
 
 # palindrome or not
-'''
+
 n = input("entre  sting: ")
 string = n.lower()
 rev_str = string[::-1]
@@ -101,17 +101,26 @@ if string==rev_str:
 else:
     print("not a palindrome")
 
-'''
+
 
 # sorting
-'''
+
 li = [1,3,12,11,4]
 print(sorted(li))
-'''
+
 
 # ASCII Number
 print(ord('A'))
 
 # ASCII Character
 print(chr(65))
+
+# temp coverion to faranheit
+# f=(c*9/5)+32
+
+c = int(input("entr temp in celis to convert to faremheit: "))
+print((c*9/5)+32,"farenhit")
+
+
+
 
