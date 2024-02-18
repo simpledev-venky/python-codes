@@ -97,6 +97,9 @@
 #     dict[i] = text.count(i)
 # print(dict)
 
-text = "sun is god"
-print(text[::-1])
+
+# reverse of  string
+
+# text = "sun is god"
+# print(text[::-1])
 

@@ -49,13 +49,7 @@ def add(a,b):
     return a+b
 print(add(1,2))
 
-n =27
-def even_odd(n):
-    if n%2==0:
-        print("even")
-    else:
-        print("odd")
-even_odd(n)
+
 
 
 def greet(name="wandel"):
@@ -89,16 +83,7 @@ def divide_and_remainder(a,b):
     return[a/b,a%b]
 print(divide_and_remainder(2,2 ))
 
-'''
-def fact(n):
-    if n==0:
-        return 1
-    else:
-        return n*fact(n-1)
-print(fact(5))
-print(fact(0))
-print(fact(1))
-'''
+
 
 
 def add(a,b):

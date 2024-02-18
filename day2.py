@@ -45,29 +45,15 @@ if n1>n2:
 else:
     print(f"n2 is larger:{n2}")
 
-# vowel or not
-'''
-# c = input("enter charater")
-# if c in "aeiouAEIOU":
-#     print("VOWEL")
-# else:
-#     print("consonant")
-'''
 
-# grade= input("entr your grade: a,b,c,d,e,f ")
-# if grade in "fF":
-#     print("fail")
-# else:
-#     print("pass")
- 
-# leap year
-'''
-year = int(input("entr year"))
-if(year%4==0 and year%100!=0 or year%400==0):
-    print("leap year")
+
+grade= input("entr your grade: a,b,c,d,e,f ")
+if grade in "fF":
+    print("fail")
 else:
-    print("not a leap year") 
-'''
+    print("pass")
+ 
+
 
 num = int(input("entr a no:"))
 if num ==0:
@@ -131,7 +117,3 @@ while i<=10:
     print(i)
     i+=1
 
-# sum of n numbers
-"""
-print(n*(n+1)/2)
-"""

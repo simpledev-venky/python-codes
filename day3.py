@@ -25,39 +25,9 @@ while n!=7:
         print("correct")
         break
 
-# lcm
-'''
-a= int(input("entr a no"))
-b= int(input("entr a no"))
-big = max(a,b)
-
-while True:
-    if big%a==0 and big%b==0:
-       print("lcm:",big)
-       break
-    big+=1
-'''
 
 
-# fibnocci numbers printing
-"""
-fib_series = [0,1]
 
-def fib(n):
-    if n<0:
-        print("enter positive")
-    elif n==1:
-        return [0]
-    elif n==2:
-        return fib_series
-    else:
-        for i in range(2,n):
-            next_num = fib_series[-1]+fib_series[-2]
-            fib_series.append(next_num)
-        return fib_series
-n = int(input("enter a no of terms for fibnnoci"))
-print(fib(n))
-"""
 
 
 # factorial fo a no
