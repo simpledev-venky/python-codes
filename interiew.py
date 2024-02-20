@@ -122,5 +122,27 @@ c = int(input("entr temp in celis to convert to faremheit: "))
 print((c*9/5)+32,"farenhit")
 
 
+# covert days into years,weeks,days
+
+
+n = int(input("entr no of days: "))
+year = n//365
+week = n%365//7
+days = n%365%7
+print(f"{year} years,{week} weeks,{days} days")
+
+
+
+# hcf 
+n1 = int(input("enter 1st no: "))
+n2 = int(input("enter 2st no: "))
+small = min(n1,n2)
+hcf =1
+for i in range(1,small+1):
+    if(n1%i==0 and n2%i==0):
+        hcf = i
+print(f"hcf of{n1},{n2} is :{hcf}")
+
+
 
 
